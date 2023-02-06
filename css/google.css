@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto' , sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: #202124;
+    width: 1680px;
+    height: 939px;
+}
+
+.container .nav{
+    width: 1680px;
+    height: 50px;
+}
+
+.container .nav ul{
+    list-style-type: none;
+    margin-left: 1410px;
+}
+
+.container ul li{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*PROFILE PHOTO*/
+
+.container ul #profile-card #profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 auto 0 auto;
+    display: table;
+}
+
+.container ul #profile-card{
+    position: relative;
+    top: -15px;
+    border-radius: 100%;
+    padding: 6px;
+}
+
+.container ul #profile-card:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+/**/
+
+.container ul #settings #setting-img{
+    width: 25px;
+    height: 25px;
+    margin-top: 0 auto 0 auto;
+    display: table;
+}
+
+.container ul #settings{
+    position: relative;
+    top: -10px;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.container ul #settings:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+/**/
+
+.container ul #l:hover{
+    text-decoration: underline;
+}
+
+.container ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/*YUKARISI NAVBAR*/
+
+.area{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    background-color: transparent;
+    width: 1000px;
+    height: 500px;
+}
+
+.area #logo{
+    position: relative;
+    top: 85px;
+    margin: 0 auto 0 auto;
+    display: table;
+}
+
+.area .input-area{
+    position: relative;
+    top: 110px;
+    margin: 0 auto 0 auto;
+    display: table;
+    background-color: transparent;
+    width: 582px;
+    height: 46px;
+    border-radius: 25px;
+    border: 1px solid #5f6368;
+}
+
+.area .input-area:hover{
+    background-color: rgb(72, 72, 72);
+    border: 1px solid rgb(72, 72, 72);
+}
+
+.area .input-area input{
+    position: relative;
+    top: 5px;
+    left: 60px;
+    background-color: transparent;
+    border: none;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    height: 34px;
+    font-size: 16px;
+    width: 400px;
+}
+
+.area .input-area #search{
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    width: 20px;
+    height: 20px;
+}
+
+.area .input-area #keyboard{
+    position: absolute;
+    top: 18px;
+    left: 466px;
+}
+
+.area .input-area #voice{
+    position: absolute;
+    top: 13px;
+    left: 506px;
+    width: 15px;
+    height: 20px;
+}
+
+.area .input-area #camera{
+    position: absolute;
+    top: 5px;
+    left: 540px;
+    width: 25px;
+    height: 35px;
+}
+
+.area .buttons{
+    position: relative;
+    top: 140px;
+    margin: 0 auto;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    background-color: transparent;
+}
+
+.area .buttons #one,
+.area .buttons #two{
+    margin-left: 10px;
+    background-color: #303134;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.area .buttons #one{
+    width: 140px;
+}
+
+.area .buttons #two{
+    width: 250px;
+}
+
+.area .buttons #one:hover,
+.area .buttons #two:hover{
+    border: 1px solid #5f6368;
+}
+
+/**/
+
+.footer{
+    margin-top: 288px;
+    background-color: #171717;
+    width: 1680px;
+    height: 100px;
+}
+
+.footer .box-one{
+    width: inherit;
+    height: 50px;
+    border-bottom: 1px solid #5f6368;
+}
+
+.footer .box-one #Tr{
+    position: relative;
+    top: 15px;
+    left: 25px;
+    color: #9aa0a6;
+    width: 55px;
+    font-size: 14px;
+}
+
+.footer .box-two{
+    width: inherit;
+    height: 50px;
+}
+
+.footer #menu1{
+    position: relative;
+    top: -5px;
+    left: 0px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.footer #menu1 li{
+    float: left;
+    color: #9aa0a6;
+    margin-left: 35px;
+}
+
+.footer #menu1 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer #yaprak{
+    position: relative;
+    top: 15px;
+    left: 350px;
+}
+
+.footer #text{
+    position: relative;
+    left: 790px;
+    top: -23px;
+    color: #9aa0a6;
+    font-size: 14px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.footer #text:hover{
+    text-decoration: underline;
+}
+
+.footer #menu2{
+    position: relative;
+    top: -5px;
+    left: 1000px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.footer #menu2 li{
+    float: left;
+    color: #9aa0a6;
+    margin-left: 35px;
+}
+
+.footer #menu2 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
